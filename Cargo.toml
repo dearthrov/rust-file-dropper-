@@ -1,0 +1,8 @@
+[package]
+name = "dropper
+version = "0.1.0"
+edition = "2025"
+
+[dependencies]
+reqwest = { version = "0.12.24", features = ["blocking"] }
+tokio = "1.48.0"
